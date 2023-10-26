@@ -17,7 +17,7 @@ const Form = (props) => {
         setName('');
         setJob('');
         setImage('');
-
+        setTeam('');
     }
 
     return (
