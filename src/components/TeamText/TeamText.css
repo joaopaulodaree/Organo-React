@@ -1,0 +1,22 @@
+.teamtext {
+    text-align: center;
+    padding: 32px;
+}
+
+.teamtext h1 {
+    color: #6278F7;
+    font-size: 32px;
+    display: inline-block;
+    padding-bottom: 8px;
+    font-family: 'Prata', serif;
+    font-weight: 400;
+}
+
+.teamtext h1::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    padding-top: 20px;
+    border-bottom: 3px solid #6278F7;
+}
