@@ -57,7 +57,7 @@ function App() {
       <Banner />
       <Form teams={teams.map(team => team.name)} whenSubmitted={Card => addCard(Card)} />
       <TeamText />
-      
+
       {teams.map(team => <Team key={team.name} name={team.name} secundaryColor={team.secundaryColor} primaryColor={team.primaryColor} cards={cards.filter(Card => Card.team === team.name)} />)}
 
       <Footer />
